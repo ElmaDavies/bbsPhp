@@ -1,4 +1,4 @@
-### bbsPhp introduction:
+### bbsPHP introduction:
 bbs implemented by php
 Database：MySql
 
