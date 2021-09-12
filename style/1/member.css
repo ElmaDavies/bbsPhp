@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+#header{
+	position:relative;
+	
+}
+#member
+{
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	position:relative;
+	top:17px;
+	
+	
+	
+}
+#member #daohanglan
+{
+	width:300px;
+	height:550px;
+	border:1px dashed #999;
+	margin:15px;
+	float:left;
+	
+}
+#member #main
+{
+	width:590px;
+	height:550px;
+	border:1px dashed #999;
+	margin:15px;
+	float:right;
+	
+}
+#member h2
+{
+	height:30px;
+	line-height:30xp;
+	text-indent:0px;
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:23px;
+	
+	
+}
+#member #daohanglan dl
+{
+	background:red;
+	margin:20px;
+}
+#member #daohanglan dt
+{
+	text-align:center;
+	height:45px;
+	background:#666;
+	line-height:45px;
+	color:#fff;
+	font-family:"STXinWei";
+	font-size:25px;
+}
+#member #daohanglan dd
+{
+	display:block;
+	text-align:center;
+	height:40px;
+	background:#ccc;
+	line-height:40px;
+	font-family:"STXinWei";
+	font-size:20px;
+}
+
+#member #daohanglan dd a
+{
+	text-decoration:none;
+	color:#111;
+}
+#member #daohanglan dd a:hover
+{
+	background:#aaa;
+	display:block;
+}
+#member #main dl
+{
+	margin:40px;
+	
+}
+#member #main dl dd
+{
+	font-family:"STXinWei";
+	border-bottom:dashed 1px #999;
+	padding:10px;
+	width:440px;
+}

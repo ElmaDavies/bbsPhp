@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+#login{
+	width:auto;
+	height:450px;
+	border:2px solid #ccc;
+	position:relative;
+	top:20px;
+}
+#login h2{
+	text-indent:0;
+	text-align:center;
+	font-family:"华文新宋";
+	
+}
+#login dl 
+{
+	background:url(../../images/2.png) no-repeat;
+	background-size:100% 100%;
+	width:370px;
+	height:200px;
+	margin:0 auto;
+	font-size:12px;
+	font-family:"华文新宋";
+	color:black;
+	position:relative;
+    
+	text-algin:center;
+	
+
+}
+
+#login dl dd
+{
+	font-family:"华文行楷";
+
+	font-size:15px;
+	position:relative;
+	top:220px;
+	padding:5px;
+	color:green;
+}
+#login dl dd input.text{
+	width:220px;
+	height:23px;
+	border:1px solid #ccc;
+	
+}
+#login dl dd input.submit
+{
+	font-family:"华文行楷";
+	width:60px;
+	height:25px;
+	border:1px solid #abc;
+	background:#efd;
+	cursor:pointer;
+	margin:0 0 40px 120px;
+	position:absolute;
+	right:140px;
+	bottom:-70px;
+	font-size:20px;
+	color:green;
+	
+	
+}
+#login dl dd  img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#login dl dd input.yzm{
+	width:60px;
+	height:25px;
+}
+#login dl dd input.button
+{
+	font-family:"华文行楷";
+	width:60px;
+	height:25px;
+	border:1px solid #abc;
+	background:#efd;
+	cursor:pointer;
+	margin:0 0 40px 120px;
+	position:absolute;
+	right:220px;
+	bottom:-70px;
+	font-size:20px;
+	color:green;
+}
+#login dl dd input.timer{
+	font-size:33px;
+}

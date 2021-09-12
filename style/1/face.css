@@ -1,0 +1,31 @@
+@CAHRSET "UTF-8";
+body
+{
+	width:auto;
+	
+}
+#face h3{
+	width:80%;
+	margin:10px auto;
+	height:30px;
+	border:1px dashed #333;
+	text-align:center;
+	line-height:30px;
+	
+	
+}
+#face dl
+{
+	width:80%;
+	margin:0 auto;
+}
+#face dl dd{
+	width:100px;
+	text-algin:center;
+	float:left;
+	
+}
+#face dl dd img{
+	cursor:pointer;
+	
+}

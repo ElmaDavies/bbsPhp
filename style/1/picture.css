@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+#header
+{
+	position:relative;
+	top:-20px;
+}
+#picture 
+{
+	width:auto;
+	height:800px;
+	border:2px solid #ccc;
+	
+	
+}
+#picture h2
+{
+	text-align:center;
+    font-size:100%;
+    font-family:"STXinWei";
+}
+#picture p 
+{
+	padding-top:25px;
+	text-align:center;
+	font-size:14px;
+	font-family:"NewYork";
+	clear:both;
+}
+#picture p a
+{
+	text-decoration:none;
+	
+}
+#picture p a:hover
+{
+	
+	cursior:pointer;
+	color:red;
+}
+#picture dl
+{
+	float:left;
+    width:110px;
+    height:110px;
+    padding:40px;
+    margin:0 auto;
+    text-align:center;
+    
+    
+}
+#picture dl dt
+{
+	 
+	 background:url('../../images/photo.jpg');
+	 padding-top:4px;
+     padding-left:29px;
+     width:71px;
+     height:85px;
+}
+#picture dl dd
+{
+ 
+   font-size:14px;
+   font-family:"STXinWei";
+   padding-top:4px;
+   
+     
+}
+#picture dl dd a
+{
+	font-size:14px;
+	text-decoration:none;
+	
+}
+#picture dl dd a:hover
+{
+	color:red;
+	text-decoration:underline;
+}

@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+#face
+{
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	
+}
+
+#face h2 
+{
+	text-align:center;
+	font-family:'STXinWei';
+	font-size:24px;
+}
+#face #daohanglan_modiefy
+{
+	width:300px;
+	height:500px;
+	border:1px dashed #999;
+	margin:15px;
+	float:left;
+	
+}
+
+
+#face #daohanglan_modiefy dl
+{
+	background:red;
+	margin:20px;
+}
+#face #daohanglan_modiefy dt
+{
+	text-align:center;
+	height:45px;
+	background:#666;
+	line-height:45px;
+	color:#fff;
+	font-family:"STXinWei";
+	font-size:25px;
+}
+#face #daohanglan_modiefy dd
+{
+	display:block;
+	text-align:center;
+	height:40px;
+	background:#ccc;
+	line-height:40px;
+	font-family:"STXinWei";
+	font-size:20px;
+}
+
+#face #daohanglan_modiefy dd a
+{
+	text-decoration:none;
+	color:#111;
+}
+#face #daohanglan_modiefy dd a:hover
+{
+	background:#aaa;
+	display:block;
+}
+#face #face_modiefy dd
+{
+	position:relative;
+	top:100px;
+	left:200px;
+}
+#face #face_modiefy
+{
+	
+	width:570px;
+	height:500px;
+	float:right;
+	border:1px dashed #ccc;
+	margin: 15px ;
+}
+#face #face_modiefy dt
+{
+	position:relative;
+	top:120px;
+	left:30px;
+	font-family:"STXinWei";
+	font-size:20px;
+}

@@ -1,0 +1,235 @@
+@CHARSET "UTF-8";
+#header
+{
+	position:relative;
+	top:-20px;
+}
+#photo_detail
+{
+	width:auto;
+	height:auto;
+
+	border:2px #ccc solid;
+}
+#photo_detail dl.detail dt a
+{
+	padding:10px;
+	font-size:16px;
+	vertical-align:middle;
+	text-decoration:none;
+	font-family:"STXinWei";
+	font-weight:bold;
+	color:#f60;
+}
+#photo_detail dl.detail dt span
+{
+	padding:10px;
+	font-size:16px;
+	vertical-align:middle;
+	
+	font-family:"STXinWei";
+	font-weight:bold;
+	color:#f60;
+}
+#photo_detail h2
+{
+	
+	font-family:"STXinWei";
+	font-size:100%;
+	text-align:center;
+}
+#photo_detail dl.detail
+{
+	text-align:center;
+	margin:0 auto;
+	padding-top:10px;
+}
+#photo_detail dl.detail dd.name
+{
+	padding-top:15px;
+	font-size:20px;
+	font-family:"STXinWei";
+	
+}
+#photo_detail dl.detail dt
+{
+	padding-top:15px;
+	padding-bottom:14px;
+}
+#photo_detail dl.detail dd a
+{
+	font-size:16px;
+	
+	text-decoration:none;
+	font-family:"STXinWei";
+}
+#photo_detail dl.detail dd a:hover
+{
+	cursor:pointer;
+	color:red;
+}
+#photo_detail dl.detail dd.read
+{
+	padding-top:15px;
+	font-size:15px;
+	font-family:"STXinWei";
+}
+#photo_detail dl.detail dd.content
+{
+	padding-top:15px;
+	font-size:15px;
+	font-family:"STXinWei";
+}
+#photo_detail   p.line
+{
+	width:98%;
+	margin:50px auto;
+    clear:both;
+	line:20px;
+	border-bottom:dashed 1px #333;
+	position:relative;
+	top:30px;
+}
+#photo_detail dl.re_photo
+{
+	text-align:center
+	
+}
+#photo_detail dl.re_photo dd textarea
+{
+	width:300px;
+	height:100px;
+	
+}
+#photo_detail dl.re_photo dd input
+{
+	width:80px;
+	height:22px;
+	margin:20px;
+}
+#photo_detail dl.re_photo dd img.yzm
+{
+	cursor:pointer;
+	margin:-7px;
+}
+#photo_detail dl.re_photo dd input.submit
+{
+	cursor:pointer;
+}
+#photo_detail #subject dl{
+	width:170px;
+	float:left;
+	font-family:"STXinWei";
+	font-size:14px;
+	color:f10;
+	margin:10px 0 0 17px;
+	position:relative;
+	top:19px;
+	left:40px;
+
+}
+
+#photo_detail #subject dl dd img
+{
+	display:block;
+	margin:0 auto;
+	size:100% 100%;
+}
+#photo_detail #subject dl dd
+{
+	text-align:center;
+	width:85px;
+	
+	float:left;
+}
+#photo_detail #subject dl dd a
+{
+	text-decoration:none;
+	color:red;
+}
+#photo_detail #subject dl dd.user{
+	width:170px;
+	color:f60;
+	font-size:20px;
+	margin-top:3px;
+	position:relative;
+	bottom:3px;
+	right:32px;
+}
+
+	
+#photo_detail #subject dl dd.friend
+{
+	background:url(../../images/friend.jpg) no-repeat 5px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#photo_detail #subject dl dd.flower
+{
+	background:url(../../images/flower.jpg) no-repeat -8px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#photo_detail #subject dl dd.message
+{
+	background:url(../../images/message.jpg) no-repeat 1px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#photo_detail #subject dl dd.guest
+{
+	background:url(../../images/guest.jpg) no-repeat left center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#photo_detail #subject dl dd.user
+{
+	color:#fd8602;
+}
+#photo_detail div.content
+{
+	float:left;
+	width:720px;
+	font-size:15px;
+	padding:8px 0 0 46px;
+	text-decoration:none;
+
+	
+	
+}
+
+
+#photo_detail div.content img
+{
+	padding-top:2px;
+}
+#photo_detail div.content div.use
+{
+	background:url(../../images/online_member.gif) no-repeat left  center;
+	border-bottom:1px dashed #999;
+	padding:0 0 0 20px;
+	color:#333;
+    line-height:30px;
+	height:30px;
+	
+}
+#photo_detail div.content div.use span
+{
+	float:right;
+	color:#0000ff;
+	
+}
+#photo_detail div.content div.use a
+{
+	color:#00ff80;
+	text-decoration:none;
+	font-size:12px;
+}
+#photo_detail #page_text
+{
+	padding-bottom:30px;
+}

@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+#header
+{
+	position:relative;
+	top:-20px;
+}
+#photo_add
+{
+	width:auto;
+	height:500px;
+	border:2px solid #ccc;
+	
+}
+#photo_add a
+{
+	text-decoration:none;
+	color:#000;
+}
+#photo_add a:hover
+{
+	color:red;
+	cursor:pointer;
+	text-decoration:underline;
+}
+#photo_add h2
+{
+	text-align:center;
+    font-size:100%;
+    font-family:"STXinWei";
+}
+#photo_add dl dd
+{
+	padding-top:30px;
+	text-align:center;
+	font-size:14px;
+}
+#photo_add dl dd#pass
+{
+	display:none;
+}
+#photo_add dl dd.type
+{
+	padding-right:70px;
+}
+#photo_add dl dd textarea
+{
+	width:180px;
+	height:40px;
+	margin-left:1px;
+	
+
+	
+}
+#photo_add dl dd.url
+{
+	
+	margin-left:30px;
+	
+}
+
+#photo_add dl dd input.upload
+{
+	width:60px;
+	cursor:pointer;
+}

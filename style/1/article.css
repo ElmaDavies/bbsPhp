@@ -1,0 +1,343 @@
+@CHARSET "UTF-8";
+
+#article{
+	width:auto;
+	min-height:800px;
+	border:solid 2px #ccc;
+	position:relative;
+	top:20px;
+
+	
+}
+#article h2{
+	text-indent:0;
+	text-align:center;
+	font-family:"STXinWei";
+	font-size:20px;
+}
+#article #subject dl{
+	width:170px;
+	float:left;
+	font-family:"STXinWei";
+	font-size:14px;
+	color:f10;
+	margin:10px 0 0 17px;
+	position:relative;
+	top:19px;
+	left:40px;
+
+}
+
+#article #subject dl dd img
+{
+	display:block;
+	margin:0 auto;
+	size:100% 100%;
+}
+#article #subject dl dd
+{
+	text-align:center;
+	width:85px;
+	
+	float:left;
+}
+#article #subject dl dd a
+{
+	text-decoration:none;
+	color:red;
+}
+#article #subject dl dd.user{
+	width:170px;
+	color:f60;
+	font-size:20px;
+	margin-top:3px;
+	position:relative;
+	bottom:3px;
+	right:32px;
+}
+
+	
+#article #subject dl dd.friend
+{
+	background:url(../../images/friend.jpg) no-repeat 5px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#article #subject dl dd.flower
+{
+	background:url(../../images/flower.jpg) no-repeat -8px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#article #subject dl dd.message
+{
+	background:url(../../images/message.jpg) no-repeat 1px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#article #subject dl dd.guest
+{
+	background:url(../../images/guest.jpg) no-repeat left center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#article #subject dl dd.user
+{
+	color:#fd8602;
+}
+#article div.content
+{
+	float:left;
+	width:720px;
+	font-size:15px;
+	padding:8px 0 0 46px;
+
+	
+	
+}
+
+#article div.content img
+{
+	padding-top:2px;
+}
+#article div.content div.use
+{
+	background:url(../../images/online_member.gif) no-repeat left  center;
+	border-bottom:1px dashed #777;
+	padding:0 0 0 20px;
+	color:#333;
+    line-height:30px;
+	height:30px;
+}
+#article div.content div.use span
+{
+	float:right;
+	color:#0000ff;
+	
+}
+#article div.content div.use span a
+{
+	text-decoration:none;
+	
+	
+}
+#article div.content div.use span a:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+	color:red;
+	
+	
+}
+#article div.content h3
+{
+	font-size:20px;
+	color:#000;
+	height:40px;
+	line-height:40px;
+}
+#article div.content h3 img
+{
+	
+	position:relative;
+	top:2px;
+	left:5px;
+}
+#article div.content div.detail
+{
+	line-height:200%;
+	font-size:16px;
+	height:auto;
+}
+#article div.content div.detail p.sign
+{
+	color:#666;
+	font-size:14px;
+	font-family:"STXinWei";
+	border-top:dashed 1px #999;
+	margin:10px 0;
+}
+#article div.content div.detail a
+{
+	text-decoration:none;
+	color:blue;
+}
+#article div.content div.detail a:hover
+{
+	pointer:;
+	color:red;
+}
+#article div.content div.read_comment
+{
+	font-size:13px;
+	color:#666;
+	padding-top:28px;
+	
+}
+#article  p.line
+{
+	width:98%;
+	margin:50px auto;
+    clear:both;
+	line:20px;
+	border-bottom:dashed 1px #333;
+	position:relative;
+	top:30px;
+	
+}
+#reply
+{
+	margin:30px 350px;
+}
+
+#reply dd textarea.content
+{
+	margin:10px 0;
+	width:250px;
+	height:auto;
+	font-size:18px;
+}
+#reply dd input.yzm
+{
+	position:relative;
+	bottom:5px;
+	margin:2px;
+	cursor:pointer;
+    
+	
+}
+#reply dd input.text
+{
+	width:60px;
+	
+}
+
+#reply dd img
+{
+	cursor:pointer;
+}
+#reply dd input.submit
+{
+	cursor:pointer;
+	margin:0 25px;
+	position:relative;
+	bottom:5px;
+}
+
+#re_article #subject dl{
+	width:170px;
+	float:left;
+	font-family:"STXinWei";
+	font-size:14px;
+	color:f10;
+	margin:10px 0 0 17px;
+	position:relative;
+	top:19px;
+	left:40px;
+
+}
+
+#re_article #subject dl dd img
+{
+	display:block;
+	margin:0 auto;
+	size:100% 100%;
+}
+#re_article #subject dl dd
+{
+	text-align:center;
+	width:85px;
+	
+	float:left;
+}
+#re_article #subject dl dd a
+{
+	text-decoration:none;
+	color:red;
+}
+#re_article #subject dl dd.user{
+	width:170px;
+	color:f60;
+	font-size:20px;
+	margin-top:3px;
+	position:relative;
+	bottom:3px;
+	right:32px;
+}
+
+	
+#re_article #subject dl dd.friend
+{
+	background:url(../../images/friend.jpg) no-repeat 5px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#re_article #subject dl dd.flower
+{
+	background:url(../../images/flower.jpg) no-repeat -8px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#re_article #subject dl dd.message
+{
+	background:url(../../images/message.jpg) no-repeat 1px center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#re_article #subject dl dd.guest
+{
+	background:url(../../images/guest.jpg) no-repeat left center;
+	position:relative;
+	top:2px;
+	right:25px;
+}
+#re_article #subject dl dd.user
+{
+	color:#fd8602;
+}
+#re_article div.content
+{
+	float:left;
+	width:720px;
+	font-size:15px;
+	padding:8px 0 0 46px;
+	text-decoration:none;
+
+	
+	
+}
+
+
+#re_article div.content img
+{
+	padding-top:2px;
+}
+#re_article div.content div.use
+{
+	background:url(../../images/online_member.gif) no-repeat left  center;
+	border-bottom:1px dashed #999;
+	padding:0 0 0 20px;
+	color:#333;
+    line-height:30px;
+	height:30px;
+	
+}
+#re_article div.content div.use span
+{
+	float:right;
+	color:#0000ff;
+	
+}
+#re_article div.content div.use a
+{
+	color:#00ff80;
+	text-decoration:none;
+	font-size:12px;
+}

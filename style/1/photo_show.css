@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+#header
+{
+	position:relative;
+	top:-20px;
+}
+#picture 
+{
+	width:auto;
+	height:580px;
+	border:2px solid #ccc;
+
+	
+}
+#picture h2
+{
+	text-align:center;
+    font-size:100%;
+    font-family:"STXinWei";
+}
+#picture p 
+{
+	padding-top:5px;
+	text-align:center;
+	font-size:14px;
+	font-family:"NewYork";
+	clear:both;
+}
+#picture p a
+{
+	text-decoration:none;
+	
+}
+#picture p a:hover
+{
+	
+	cursior:pointer;
+	color:red;
+}
+#picture dl
+{
+	
+	float:left;
+    text-align:center;
+	margin:15px 25px;
+	
+}
+
+#picture dl dd
+{
+	font-family:"STXinWei";
+	font-size:14px;
+	text-align:center;
+	
+}
+#picture #page_show
+{
+	position:relative;
+	top:333px;
+}

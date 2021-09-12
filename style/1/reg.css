@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+#header{
+	position:relative;
+
+}
+#reg{
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	position:relative;
+	top:20px;
+
+	
+}
+#reg h2{
+	text-indent:0;
+	text-align:center;
+	font-family:"华文新宋";
+
+}
+#reg dl{
+	background:url(../../images/2.png) no-repeat;
+	background-size:100% 100%;
+	width:370px;
+	margin:0 auto;
+	font-size:12px;
+	font-family:"华文新宋";
+	color:black;
+}
+#reg dl dt{
+	text-align:center;
+	font-weight:bolid;
+	padding:10px 0;
+}
+#reg dl dd{
+	padding:5px 0;
+}
+#reg dl dd.face{
+	padding:5px 0 5px 120px;
+}
+#reg dl dd.face img{
+	cursor:pointer;
+}
+#reg dl dd  input.text{
+	width:220px;
+	height:19px;
+	border:1px solid #fff;
+	
+}
+#reg dl dd input.yzm{
+	width:60px;
+}
+#reg dl dd  input.submit{
+	width:60px;
+	height:19px;
+	border:1px solid #333;
+	background:#fff;
+	cursor:pointer;
+	margin:0 0 0 120px;
+	
+}
+#reg dl dd  img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}

@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+#header{
+	position:relative;
+}
+#blog{
+	width:auto;
+	height:800px;
+	border:2px solid #ccc;
+	position:relative;
+	top:20px;
+
+	
+}
+#blog h2{
+	text-indent:0;
+	text-align:center;
+	font-family:"STXinWei";
+	font-size:20px;
+
+}
+#blog dl{
+	width:170px;
+	float:left;
+	font-family:"STXinWei";
+	font-size:14px;
+	color:f10;
+	margin:10px 0 0 17px;
+
+}
+#blog dl dt
+{
+	width:170px;
+	margin:0 5px 5px 0;
+	
+}
+#blog dl dt img
+{
+	display:block;
+	margin:0 auto;
+	size:80% 80%;
+}
+#blog dl dd
+{
+	text-align:center;
+	width:85px;
+	
+	float:left;
+}
+#blog dl dd a
+{
+	text-decoration:none;
+	color:red;
+}
+#blog dl dd.user{
+	width:170px;
+	color:f60;
+	font-size:20px;
+}
+#blog dl dd.friend
+{
+	background:url(../../images/friend.jpg) no-repeat 5px center;
+}
+#blog dl dd.flower
+{
+	background:url(../../images/flower.jpg) no-repeat -8px center;
+}
+#blog dl dd.message
+{
+	background:url(../../images/message.jpg) no-repeat 1px center;
+}
+#blog dl dd.guest
+{
+	background:url(../../images/guest.jpg) no-repeat left center;
+}
